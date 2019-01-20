@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+   >
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/ic_launcher"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/btn_carema"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="65dp"
+        android:text="摄像头"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/sendimage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_carema"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="87dp"
+        android:text="上传" />
+    <TextView
+        android:id="@+id/response"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+</RelativeLayout>
+
